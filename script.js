@@ -86,7 +86,7 @@ cdiv.setAttribute("class","card");
              .then((datas)=>datas.json()) 
              .then((val)=>{
                 
-                console.log(val)
+                
                 bt.setAttribute("onclick",`alert(${val.main.temp})`);  
              })
         } catch (error) {
